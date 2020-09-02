@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/wisam87/mv-directory"
   },
   "type": "commonjs",
   "main": "./dist/src/index.js",

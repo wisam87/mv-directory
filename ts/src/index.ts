@@ -1,25 +1,9 @@
 import atolls from "../data/atolls.json";
 import islands from "../data/islands.json";
+import Island from "../types/Island";
+import Atoll from "../types/Atoll";
 
-interface Atoll {
-  code: string;
-  name: string;
-  alt_name?: string;
-  islands?: Island[];
-}
-
-interface Island {
-  atoll: string;
-  type: string;
-  name: string;
-  alt_name: string;
-  lat?: number | string;
-  long?: number | string;
-  flag_1?: string | null | undefined;
-  flag_2?: string | null | undefined;
-}
-
-export default class MaldivesLocation {
+export default class MvDirectory {
   getAtolls(withIslands = false, withUninhabitedIslands = false) {
     const atolllist: Atoll[] = atolls;
 
