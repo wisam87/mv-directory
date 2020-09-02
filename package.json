@@ -1,0 +1,37 @@
+{
+  "name": "@mwisam/mv-directory",
+  "version": "0.0.1",
+  "author": "Mohamed Wisam",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "commonjs",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "clean": "shx rm -rf dist/*",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "mocha --ui qunit",
+    "testall": "mocha --ui qunit dist/test",
+    "prepack": "npm run clean && npm run build"
+  },
+  "// devDependencies": {
+    "@types/node": "Needed for unit test assertions (assert.equal() etc.)",
+    "shx": "Needed for development-time package.json scripts"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.11.1",
+    "mocha": "^7.1.1",
+    "shx": "^0.3.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "typescript": "^4.0.2"
+  },
+  "description": ""
+}

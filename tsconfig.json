@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "ts",
+    "outDir": "dist",
+    "target": "es2019",
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "lib": [
+      "es2019"
+    ],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true
+  }
+}

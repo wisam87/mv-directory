@@ -1,0 +1,81 @@
+[{
+  "code": "HA",
+  "name": "Haa Alifu Atoll",
+  "alt_name": "Thiladhunmathi Uthuruburi"
+}, {
+  "code": "HDH",
+  "name": "Haa Dhaalu Atoll",
+  "alt_name": "Thiladhunmathi Dhekunuburi"
+}, {
+  "code": "SH",
+  "name": "Shaviyani Atoll",
+  "alt_name": "Miladhunmadulu Uthuruburi"
+}, {
+  "code": "N",
+  "name": "Noonu Atoll",
+  "alt_name": "Miladhunmadulu Dhekunuburi"
+}, {
+  "code": "R",
+  "name": "Raa Atoll",
+  "alt_name": "Maalhosmadulu Uthuruburi"
+}, {
+  "code": "B",
+  "name": "Baa Atoll",
+  "alt_name": "Maalhosmadulu Dhekunuburi"
+}, {
+  "code": "LH",
+  "name": "Lhaviyani Atoll",
+  "alt_name": "Faadhippolhu"
+}, {
+  "code": "K",
+  "name": "Kaafu Atoll",
+  "alt_name": "Male Atholhu"
+}, {
+  "code": "AA",
+  "name": "Alifu Alifu Atoll",
+  "alt_name": "Ari Atholhu Uthuruburi"
+}, {
+  "code": "ADH",
+  "name": "Alifu Dhaalu Atoll",
+  "alt_name": "Ari Atholhu Dhekunuburi"
+}, {
+  "code": "V",
+  "name": "Vaavu Atoll",
+  "alt_name": "Felidhe Atholhu"
+}, {
+  "code": "M",
+  "name": "Meemu Atoll",
+  "alt_name": "Mulaku Atholhu"
+}, {
+  "code": "F",
+  "name": "Faafu Atoll",
+  "alt_name": "Nilandhe Atholhu Uthuruburi"
+}, {
+  "code": "DH",
+  "name": "Dhaalu Atoll",
+  "alt_name": "Nilandhe Atholhu Dhekunuburi"
+}, {
+  "code": "TH",
+  "name": "Thaa Atoll",
+  "alt_name": "Kolhumadulu"
+}, {
+  "code": "L",
+  "name": "Laamu Atoll",
+  "alt_name": "Hahdhunmathi"
+}, {
+  "code": "GA",
+  "name": "Gaafu Alifu Atoll",
+  "alt_name": "Huvadhu Atholhu Uthuruburi"
+}, {
+  "code": "GDH",
+  "name": "Gaafu Dhaalu Atoll",
+  "alt_name": "Huvadhu Atholhu Dhekunuburi"
+}, {
+  "code": "GN",
+  "name": "Gnaviyani Atoll",
+  "alt_name": "Fuvahmulah"
+}, {
+  "code": "S",
+  "name": "Seenu Atoll",
+  "alt_name": "Addu Atholhu"
+}]
