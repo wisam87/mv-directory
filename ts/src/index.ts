@@ -1,5 +1,6 @@
 import atolls from "../data/atolls.json";
 import islands from "../data/islands.json";
+// Types
 import Island from "../types/Island";
 import Atoll from "../types/Atoll";
 
@@ -27,6 +28,8 @@ export default class MvDirectory {
     isInhabited = true,
     islandName: string | null | undefined = null,
   ) {
+    let filteredAtoll = atolls.find((atoll) => atoll.name === atollCode);
+
     let filtered = islands.filter((island) => island.atoll == atollCode);
 
     if (isInhabited) {
@@ -37,8 +40,12 @@ export default class MvDirectory {
       filtered = filtered.filter((island) => island.name === islandName);
     }
 
-    return filtered;
+    filteredAtoll?.islands = filtered;
+
+    return filteredAtoll;
   }
+
+  // TODO: Add Filter, Inhabited, Habited, Resorts, All
 
   getAllIslands() {
     const allislands: Island[] = islands;
