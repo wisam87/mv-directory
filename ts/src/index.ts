@@ -12,27 +12,34 @@ export default class MvDirectory {
       atolllist.forEach((atoll) =>
         atoll.islands = this.getAtollIslands(atoll.code)
       );
+      return true;
     }
 
     if (withUninhabitedIslands) {
       atolllist.forEach((atoll) =>
         atoll.islands = this.getAtollIslands(atoll.code, false)
       );
+      return true;
     }
 
     return atolllist;
   }
 
+  getAtoll(atollCode: string) {
+    const atoll = atolls.find((atoll) => atoll.code === atollCode);
+    return atoll;
+  }
+
   getAtollIslands(
     atollCode: string,
-    isInhabited = true,
+    inhabitedOnly = true,
     islandName: string | null | undefined = null,
   ) {
-    let filteredAtoll = atolls.find((atoll) => atoll.name === atollCode);
+    let filtered: Island[] = islands.filter((island) =>
+      island.atoll == atollCode
+    );
 
-    let filtered = islands.filter((island) => island.atoll == atollCode);
-
-    if (isInhabited) {
+    if (inhabitedOnly) {
       filtered = filtered.filter((island) => island.flag_1 === "I");
     }
 
@@ -40,12 +47,19 @@ export default class MvDirectory {
       filtered = filtered.filter((island) => island.name === islandName);
     }
 
-    filteredAtoll?.islands = filtered;
-
-    return filteredAtoll;
+    return filtered;
   }
 
-  // TODO: Add Filter, Inhabited, Habited, Resorts, All
+  getAtollwithIslands(atollCode: string, unInhabited = false) {
+    const atolllist: Atoll[] = atolls;
+
+    const filtered = atolllist.find((atoll) => atoll.code === atollCode);
+    const islands = this.getAtollIslands(atollCode, unInhabited ? false : true);
+    if (filtered) {
+      filtered.islands = islands;
+    }
+    return filtered;
+  }
 
   getAllIslands() {
     const allislands: Island[] = islands;

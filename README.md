@@ -1,8 +1,11 @@
-## Maldives Atoll/Island Directory
+# Maldives Atoll / Island Directory
+
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
 ![npm](https://img.shields.io/npm/v/mv-directory?style=plastic)
 
-Using this, users can fetch and filter Maldives Atolls and Islands JSON.
+Promise based HTTP client for the browser and node.js
+
+Using this, users can fetch and filter Maldives Atolls and Islands.
 
 ### Installation
 ```sh
