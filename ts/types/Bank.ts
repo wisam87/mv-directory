@@ -1,4 +1,4 @@
-export interface Bank {
+export default interface Bank {
   name: string;
   code: string;
 }
