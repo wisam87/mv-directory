@@ -1,6 +1,6 @@
 {
   "name": "mv-directory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Mohamed Wisam",
   "license": "MIT",
   "repository": {
@@ -30,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
     "mocha": "^7.1.1",
     "shx": "^0.3.2"
   },
