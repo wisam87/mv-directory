@@ -15,8 +15,8 @@ $ npm install mv-directory
 ### Usage
 Import `MvDirectory` in your JavaScript or TypeScript application.
 ```javascript
-import { MvDirectory } from 'mv-directory';
-private mvdirectory = new MvDirectory();
+import MvDirectory from "mv-directory";
+const mvdirectory = new MvDirectory();
 ```
 Example: Fetch All Atolls. ( optional with Island )
 ```typescript
