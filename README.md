@@ -20,32 +20,46 @@ const directory = new MvDirectory();
 ```
 #### Methods
 ```javascript
+
 // Get All Atolls
 directory.getAtolls(withIslands?: boolean, inhabitedIslandsOnly?: boolean);
+
 // Get Specific Atoll
 directory.getAtoll(atollCode: string, withIslands?: boolean, inhabitedIslandsOnly?: boolean);
+
 // Islands of a specific Atoll
 directory.getAtollIslands(atollCode: string, inhabitedOnly?: boolean);
+
 // Specific Atoll with Islands
 directory.getAtollwithIslands(atollCode: string, inhabitedOnly?: boolean);
+
 // Get All Islands
 directory.getAllIslands();
+
 // Get specific Island by Name
 directory.getIsland(name: string);
+
 // Get list of inhabited Islands
 directory.getInhabitedIslands();
+
 // Get list of Countries
 directory.getCountries();
+
 // Get country by Code
 directory.getCountryByCode(countryCode: string);
+
 // Get country by Name
 directory.getCountryByName(name: string);
+
 // Get list of Banks
 directory.getBanks();
+
 // Get bank by Code
 directory.getBankByCode(bankCode: string);
+
 // Get bank by Name
 directory.getBankByName(bankName: string);
+
 ```
 > Data is up to date as of 03-09-2020.
 > Feel free to contribute.
