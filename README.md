@@ -12,25 +12,40 @@ Currenty supports:
 ```sh
 $ npm install mv-directory
 ```
-### Usage
+## Usage
 Import `MvDirectory` in your JavaScript or TypeScript application.
 ```javascript
 import MvDirectory from "mv-directory";
-const mvdirectory = new MvDirectory();
+const directory = new MvDirectory();
 ```
-Example: Fetch All Atolls. ( optional with Island )
-```typescript
-/**
-* Fetch Atolls
-* @param {boolean} withIslands [false] - optional
-* @param {boolean} withUninhabitedIslands - [false] - optional
-*/
-const atolls_with_islands = mvdirectory.getAtolls(true);
+#### Methods
+```javascript
+// Get All Atolls
+directory.getAtolls(withIslands?: boolean, inhabitedIslandsOnly?: boolean);
+// Get Specific Atoll
+directory.getAtoll(atollCode: string, withIslands?: boolean, inhabitedIslandsOnly?: boolean);
+// Islands of a specific Atoll
+directory.getAtollIslands(atollCode: string, inhabitedOnly?: boolean);
+// Specific Atoll with Islands
+directory.getAtollwithIslands(atollCode: string, inhabitedOnly?: boolean);
+// Get All Islands
+directory.getAllIslands();
+// Get specific Island by Name
+directory.getIsland(name: string);
+// Get list of inhabited Islands
+directory.getInhabitedIslands();
+// Get list of Countries
+directory.getCountries();
+// Get country by Code
+directory.getCountryByCode(countryCode: string);
+// Get country by Name
+directory.getCountryByName(name: string);
+// Get list of Banks
+directory.getBanks();
+// Get bank by Code
+directory.getBankByCode(bankCode: string);
+// Get bank by Name
+directory.getBankByName(bankName: string);
 ```
-Some Other Examples
-```typescript
-const atoll = mvdirectory.getAtoll("HA");
-const bank = mvdirectory.getBankByCode("BML");
-```
-
+> Data is up to date as of 03-09-2020.
 > Feel free to contribute.

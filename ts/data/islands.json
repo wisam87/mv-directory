@@ -4357,11 +4357,11 @@
 }, {
   "atoll": "K",
   "type": "Islands",
-  "name": "",
-  "alt_name": "Male'I[H]",
+  "name": "Male'",
+  "alt_name": "",
   "lat": "4.174166667",
   "lon": "73.50972222",
-  "flag_1": null,
+  "flag_1": "I",
   "flag_2": null
 }, {
   "atoll": "K",
