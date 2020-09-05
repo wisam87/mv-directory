@@ -16,7 +16,7 @@ export default class MvDirectory {
     return data;
   }
 
-  getAtolls(withIslands = false, inhabitedIslandsOnly = false) {
+  getAtolls(withIslands = false, inhabitedIslandsOnly = false): Atoll[] {
     const atolllist: Atoll[] = atolls;
 
     if (withIslands) {
@@ -38,7 +38,7 @@ export default class MvDirectory {
     atollCode: string,
     withIslands = false,
     inhabitedIslandsOnly = false,
-  ) {
+  ): Atoll | undefined {
     if (withIslands) {
       const atoll = this.getAtollwithIslands(atollCode, inhabitedIslandsOnly);
       return atoll;
@@ -52,7 +52,7 @@ export default class MvDirectory {
   getAtollIslands(
     atollCode: string,
     inhabitedOnly = false,
-  ) {
+  ): Island[] {
     let data: Island[] = this._filterIslands(islands, "atoll", atollCode);
 
     if (inhabitedOnly) {
@@ -62,7 +62,10 @@ export default class MvDirectory {
     return data;
   }
 
-  getAtollwithIslands(atollCode: string, inhabitedOnly = false) {
+  getAtollwithIslands(
+    atollCode: string,
+    inhabitedOnly = false,
+  ): Atoll | undefined {
     const atolllist: Atoll[] = atolls;
 
     const filtered = atolllist.find((atoll) => atoll.code === atollCode);
@@ -73,47 +76,47 @@ export default class MvDirectory {
     return filtered;
   }
 
-  getAllIslands() {
+  getAllIslands(): Island[] {
     const data: Island[] = islands;
     return data;
   }
 
-  getIsland(name: string) {
+  getIsland(name: string): Island | undefined {
     const island = islands.find((item) => item.name === name);
     return island;
   }
 
-  getInhabitedIslands() {
+  getInhabitedIslands(): Island[] {
     const data: Island[] = this._filterIslands(islands, "flag_1", "I");
     return data;
   }
 
-  getCountries() {
+  getCountries(): Country[] {
     const data: Country[] = countries;
     return data;
   }
 
-  getCountryByCode(countryCode: string) {
+  getCountryByCode(countryCode: string): Country | undefined {
     const country = countries.find((country) => country.code === countryCode);
     return country;
   }
 
-  getCountryByName(name: string) {
+  getCountryByName(name: string): Country | undefined {
     const country = countries.find((country) => country.name === name);
     return country;
   }
 
-  getBanks() {
+  getBanks(): Bank[] {
     const data: Bank[] = banks;
     return data;
   }
 
-  getBankByCode(bankCode: string) {
+  getBankByCode(bankCode: string): Bank | undefined {
     const bank = banks.find((bank) => bank.code === bankCode);
     return bank;
   }
 
-  getBankByName(bankName: string) {
+  getBankByName(bankName: string): Bank | undefined {
     const bank = banks.find((bank) => bank.name === bankName);
     return bank;
   }
