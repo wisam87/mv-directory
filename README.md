@@ -63,3 +63,4 @@ directory.getBankByName(bankName: string);
 ```
 > Data is up to date as of 03-09-2020.
 > Feel free to contribute.
+> Whats next? Add Tests
