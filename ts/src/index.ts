@@ -11,11 +11,6 @@ export default class MvDirectory {
     return data;
   }
 
-  private _filterAtolls(array: Atoll[], field: string, code: string) {
-    const data: Atoll[] = array.filter((item) => item[field] === code);
-    return data;
-  }
-
   getAtolls(withIslands = false, inhabitedIslandsOnly = false): Atoll[] {
     const atolllist: Atoll[] = atolls;
 
