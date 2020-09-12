@@ -2,8 +2,11 @@ import atolls from "../data/atolls.json";
 import islands from "../data/islands.json";
 import countries from "../data/countries.json";
 import banks from "../data/banks.json";
-// Types
-import { Atoll, Island, Country, Bank } from "../types/types";
+
+import Island from "../types/Island";
+import Atoll from "../types/Atoll";
+import Bank from "../types/Bank";
+import Country from "../types/Country";
 
 export default class MvDirectory {
   private _filterIslands(array: Island[], field: string, code: string) {
