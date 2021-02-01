@@ -919,11 +919,11 @@
 }, {
   "atoll": "SH",
   "type": "Islands",
-  "name": "",
-  "alt_name": "Kan'ditheemuI",
+  "name": "Kan'ditheemu",
+  "alt_name": "null",
   "lat": "6.440277778",
   "lon": "72.91638889",
-  "flag_1": null,
+  "flag_1": "I",
   "flag_2": null
 }, {
   "atoll": "SH",
@@ -2062,11 +2062,11 @@
 }, {
   "atoll": "R",
   "type": "Islands",
-  "name": "",
-  "alt_name": "GiraavaruU",
+  "name": "Giraavaru",
+  "alt_name": "null",
   "lat": "5.588333333",
   "lon": "72.86111111",
-  "flag_1": null,
+  "flag_1": "U",
   "flag_2": null
 }, {
   "atoll": "R",
@@ -2422,11 +2422,11 @@
 }, {
   "atoll": "R",
   "type": "Islands",
-  "name": "",
-  "alt_name": "MeedhupparuR",
+  "name": "Meedhupparu",
+  "alt_name": "null",
   "lat": "5.455833333",
   "lon": "72.97972222",
-  "flag_1": null,
+  "flag_1": "R",
   "flag_2": null
 }, {
   "atoll": "R",
@@ -3169,11 +3169,11 @@
 }, {
   "atoll": "B",
   "type": "Islands",
-  "name": "",
-  "alt_name": "NelivarufinolhuU",
+  "name": "Nelivarufinolhu",
+  "alt_name": "null",
   "lat": "5.125555556",
   "lon": "73.08527777777778",
-  "flag_1": null,
+  "flag_1": "U",
   "flag_2": null
 }, {
   "atoll": "B",
@@ -4546,11 +4546,11 @@
 }, {
   "atoll": "K",
   "type": "Islands",
-  "name": "",
-  "alt_name": "VelassaruR",
+  "name": "Velassaru",
+  "alt_name": "null",
   "lat": "4.121388889",
   "lon": "73.43694444",
-  "flag_1": null,
+  "flag_1": "R",
   "flag_2": null
 }, {
   "atoll": "K",
@@ -5023,11 +5023,11 @@
 }, {
   "atoll": "AA",
   "type": "Islands",
-  "name": "",
-  "alt_name": "UkulhasI",
+  "name": "Ukulhas",
+  "alt_name": "null",
   "lat": "4.214722222",
   "lon": "72.86388889",
-  "flag_1": null,
+  "flag_1": "I",
   "flag_2": null
 }, {
   "atoll": "AA",
@@ -5401,11 +5401,11 @@
 }, {
   "atoll": "ADH",
   "type": "Islands",
-  "name": "",
-  "alt_name": "RangaliR",
+  "name": "Rangali",
+  "alt_name": "null",
   "lat": "3.617777778",
   "lon": "72.72305556",
-  "flag_1": null,
+  "flag_1": "R",
   "flag_2": null
 }, {
   "atoll": "ADH",
@@ -5797,11 +5797,11 @@
 }, {
   "atoll": "M",
   "type": "Islands",
-  "name": "",
-  "alt_name": "KolhufushiI",
+  "name": "Kolhufushi",
+  "alt_name": "null",
   "lat": "2.779722222",
   "lon": "73.42527778",
-  "flag_1": null,
+  "flag_1": "I",
   "flag_2": null
 }, {
   "atoll": "M",
@@ -7606,8 +7606,8 @@
 }, {
   "atoll": "L",
   "type": "Islands",
-  "name": "",
-  "alt_name": "MaandhooU",
+  "name": "Maandhoo",
+  "alt_name": "null",
   "lat": "1.873611111",
   "lon": "73.52805556",
   "flag_1": "IND",
