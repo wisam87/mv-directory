@@ -119,3 +119,8 @@ export default class MvDirectory {
     return bank;
   }
 }
+
+export function getBanks(): Bank[] {
+  const data: Bank[] = banks;
+  return data;
+}
