@@ -13,6 +13,19 @@ Currenty supports:
 $ npm install mv-directory
 ```
 ## Usage
+### Version 2.0 and above.
+
+```javascript
+import { Atolls, Islands, Banks, Countries } from "mv-directory";
+```
+
+Retreive All / Specific;
+- Atolls - All Atolls, Specific Atoll, With Islands.
+- All Islands, Specific Island, Inhabited Islands.
+- All Banks or Bank by Code
+- All Countries or Countries by Name
+
+### Version below 2.0
 Import `MvDirectory` in your JavaScript or TypeScript application.
 ```javascript
 import MvDirectory from "mv-directory";
